@@ -1,5 +1,7 @@
 body{
     margin: 0;
+    background: radial-gradient(gray,black);
+    height:1;
 }
 
 .box{
