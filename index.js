@@ -8,6 +8,6 @@ app.get('/',function(req,res){
 })
 
 
-app.listen(1998||process.env.PORT,function(err){
+app.listen((process.env.PORT||1998),function(err){
     console.log('Locally Listening at at http://127.0.0.1:1998')
 })
