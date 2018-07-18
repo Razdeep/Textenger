@@ -1,0 +1,19 @@
+{
+  "name": "textenger",
+  "version": "1.0.0",
+  "description": "Sends sms online...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Razdeep/Textenger.git"
+  },
+  "author": "Rajdeep Roy Chowdhury",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Razdeep/Textenger/issues"
+  },
+  "homepage": "https://github.com/Razdeep/Textenger#readme"
+}
