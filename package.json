@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Razdeep/Textenger/issues"
   },
-  "homepage": "https://github.com/Razdeep/Textenger#readme"
+  "homepage": "https://github.com/Razdeep/Textenger#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
