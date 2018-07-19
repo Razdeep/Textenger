@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Razdeep/Textenger#readme",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "dotenv": "^6.0.0",
     "express": "^4.16.3",
     "twilio": "^3.18.0"
