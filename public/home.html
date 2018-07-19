@@ -18,9 +18,11 @@
     <div class="box">
         <div id="title">Textenger</div>
         <br>
-        <input type="text" id="to_phone" name="to_phone" placeholder="Target phone number here"><br><br>
-        <textarea name="message" id="message" cols="30" rows="10" placeholder="Message to be sent"></textarea><br>
-        <button id="send">Send</button>
+        <form action="/" method="post">
+            <input type="text" id="to_phone" name="to_phone" placeholder="Target phone number here"><br><br>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Message to be sent"></textarea><br>
+            <button id="send" type="submit">Send</button>
+        </form>
     </div>
 </body>
 </html>
