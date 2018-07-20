@@ -21,8 +21,18 @@ header{
 #logo{
     float: left;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 5px;
     font-weight: 1000;
+}
+#icon{
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    background: url('rrc_icon.png');
+    background-size: cover;
+    height: 50px;
+    width:50px;
+    display:block;
 }
 ul#menu{
     margin-top: 35px;
@@ -79,7 +89,8 @@ header li a:hover{
 }
 #send{
     padding: 5px;
-    background-color: yellowgreen;
+    color: yellow;
+    background: green;
     outline: none;
     border: 1px solid black;
     height: 35px;
@@ -87,11 +98,12 @@ header li a:hover{
     border-radius: 5px;
     font-size: 15px;
     margin-left: 150px;
+    transition: all 0.3s ease-in;
 }
 #send:hover{
-    color: yellow;
-    background: green;
-    transition: all 0.2s ease-in-out;
+    color: green;
+    background-color: yellowgreen;
+    transition: all 0.2s ease-in;
 }
 
 footer{
